@@ -7,17 +7,17 @@
     </div>
     <div>
       <a class="navbar-brand brand-logo" href="../index.html">
-        <img src=".../assets/images/logo.svg" alt="logo" />
+        <img src=".../assets/images/logo.svg" alt="Crypto || Dashboard" />
       </a>
       <a class="navbar-brand brand-logo-mini" href="../index.html">
-        <img src=".../assets/images/logo-mini.svg" alt="logo" />
+        <img src=".../assets/images/logo-mini.svg" alt="Crypto || Dashboard" />
       </a>
     </div>
   </div>
   <div class="navbar-menu-wrapper d-flex align-items-top">
     <ul class="navbar-nav">
       <li class="nav-item fw-semibold d-none d-lg-block ms-0">
-        <h1 class="welcome-text">Good Morning, <span class="text-black fw-bold">John Doe</span></h1>
+        <h1 class="welcome-text">Good Morning, <span class="text-black fw-bold">Gideon Bett</span></h1>
         <h3 class="welcome-sub-text">Your performance summary this week </h3>
       </li>
     </ul>
@@ -153,8 +153,8 @@
         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
           <div class="dropdown-header text-center">
             <img class="img-md rounded-circle" src="../assets/images/faces/face8.jpg" alt="Profile image">
-            <p class="mb-1 mt-3 fw-semibold">Allen Moreno</p>
-            <p class="fw-light text-muted mb-0">allenmoreno@gmail.com</p>
+            <p class="mb-1 mt-3 fw-semibold">Gideon Kiplangat</p>
+            <p class="fw-light text-muted mb-0">nexusgk3@gmail.com</p>
           </div>
           <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-account-outline text-primary me-2"></i> My Profile <span class="badge badge-pill badge-danger">1</span></a>
           <a class="dropdown-item"><i class="dropdown-item-icon mdi mdi-message-text-outline text-primary me-2"></i> Messages</a>
