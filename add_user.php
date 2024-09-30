@@ -1,11 +1,21 @@
-<?php @include("header.php");?>
-  <body class="with-welcome-text">
-    <div class="container-scroller">
-       
-      <!-- partial:partials/_navbar.html -->
- <?php @include("inc/navbar.php");?>
-      <!-- partial -->
-      <div class="container-fluid page-body-wrapper">
-        <!-- partial:partials/_sidebar.html -->
-         <?php @include("inc/sidebar1.php");?>
-         <?php @include("plugin.php");?>
+<?php
+include 'inc/connect.php';  // Include your database connection
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $customer_name = $_POST['customer_name'];
+    $company_name = $_POST['company_name'];
+    $status = $_POST['status'];
+
+    // Prepare and execute the insert statement
+    $stmt = $conn->prepare("INSERT INTO users (customer_name, company_name, status) VALUES (?, ?, ?)");
+    $stmt->bind_param("sss", $customer_name, $company_name, $status);
+
+    if ($stmt->execute()) {
+        echo "User added successfully.";
+    } else {
+        echo "Error: " . $stmt->error;
+    }
+
+    $stmt->close();
+}
+?>

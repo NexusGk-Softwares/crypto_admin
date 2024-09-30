@@ -9,216 +9,197 @@
         <!-- partial:partials/_sidebar.html -->
          <?php @include("inc/sidebar1.php");?>
          <?php @include("plugin.php");?>
-         <div class="row flex-grow">
-                            <div class="col-12 grid-margin stretch-card">
-                              <div class="card card-rounded">
-                                <div class="card-body">
-                                  <div class="d-sm-flex justify-content-between align-items-start">
-                                    <div>
-                                      <h4 class="card-title card-title-dash">Pending Requests</h4>
-                                      <p class="card-subtitle card-subtitle-dash">You have 50+ new requests</p>
-                                    </div>
-                                    <div>
-                                      <button class="btn btn-primary btn-lg text-white mb-0 me-0" type="button"><i class="mdi mdi-account-plus"></i>Add new member</button>
-                                    </div>
-                                  </div>
-                                  <div class="table-responsive  mt-1">
-                                    <table class="table select-table">
-                                      <thead>
-                                        <tr>
-                                          <th>
-                                            <div class="form-check form-check-flat mt-0">
-                                              <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" aria-checked="false" id="check-all"><i class="input-helper"></i></label>
-                                            </div>
-                                          </th>
-                                          <th>Customer</th>
-                                          <th>Company</th>
-                                          <th>Progress</th>
-                                          <th>Status</th>
-                                        </tr>
-                                      </thead>
-                                      <tbody>
-                                        <tr>
-                                          <td>
-                                            <div class="form-check form-check-flat mt-0">
-                                              <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <div class="d-flex ">
-                                              <img src="assets/images/faces/face1.jpg" alt="">
-                                              <div>
-                                                <h6>Brandon Washington</h6>
-                                                <p>Head admin</p>
-                                              </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <h6>Company name 1</h6>
-                                            <p>company type</p>
-                                          </td>
-                                          <td>
-                                            <div>
-                                              <div class="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                <p class="text-success">79%</p>
-                                                <p>85/162</p>
-                                              </div>
-                                              <div class="progress progress-md">
-                                                <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                              </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <div class="badge badge-opacity-warning">In progress</div>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td>
-                                            <div class="form-check form-check-flat mt-0">
-                                              <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <div class="d-flex">
-                                              <img src="assets/images/faces/face2.jpg" alt="">
-                                              <div>
-                                                <h6>Laura Brooks</h6>
-                                                <p>Head admin</p>
-                                              </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <h6>Company name 1</h6>
-                                            <p>company type</p>
-                                          </td>
-                                          <td>
-                                            <div>
-                                              <div class="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                <p class="text-success">65%</p>
-                                                <p>85/162</p>
-                                              </div>
-                                              <div class="progress progress-md">
-                                                <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                                              </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <div class="badge badge-opacity-warning">In progress</div>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td>
-                                            <div class="form-check form-check-flat mt-0">
-                                              <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <div class="d-flex">
-                                              <img src="assets/images/faces/face3.jpg" alt="">
-                                              <div>
-                                                <h6>Wayne Murphy</h6>
-                                                <p>Head admin</p>
-                                              </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <h6>Company name 1</h6>
-                                            <p>company type</p>
-                                          </td>
-                                          <td>
-                                            <div>
-                                              <div class="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                <p class="text-success">65%</p>
-                                                <p>85/162</p>
-                                              </div>
-                                              <div class="progress progress-md">
-                                                <div class="progress-bar bg-warning" role="progressbar" style="width: 38%" aria-valuenow="38" aria-valuemin="0" aria-valuemax="100"></div>
-                                              </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <div class="badge badge-opacity-warning">In progress</div>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td>
-                                            <div class="form-check form-check-flat mt-0">
-                                              <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <div class="d-flex">
-                                              <img src="assets/images/faces/face4.jpg" alt="">
-                                              <div>
-                                                <h6>Matthew Bailey</h6>
-                                                <p>Head admin</p>
-                                              </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <h6>Company name 1</h6>
-                                            <p>company type</p>
-                                          </td>
-                                          <td>
-                                            <div>
-                                              <div class="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                <p class="text-success">65%</p>
-                                                <p>85/162</p>
-                                              </div>
-                                              <div class="progress progress-md">
-                                                <div class="progress-bar bg-danger" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                                              </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <div class="badge badge-opacity-danger">Pending</div>
-                                          </td>
-                                        </tr>
-                                        <tr>
-                                          <td>
-                                            <div class="form-check form-check-flat mt-0">
-                                              <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" aria-checked="false"><i class="input-helper"></i></label>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <div class="d-flex">
-                                              <img src="assets/images/faces/face5.jpg" alt="">
-                                              <div>
-                                                <h6>Katherine Butler</h6>
-                                                <p>Head admin</p>
-                                              </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <h6>Company name 1</h6>
-                                            <p>company type</p>
-                                          </td>
-                                          <td>
-                                            <div>
-                                              <div class="d-flex justify-content-between align-items-center mb-1 max-width-progress-wrap">
-                                                <p class="text-success">65%</p>
-                                                <p>85/162</p>
-                                              </div>
-                                              <div class="progress progress-md">
-                                                <div class="progress-bar bg-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                                              </div>
-                                            </div>
-                                          </td>
-                                          <td>
-                                            <div class="badge badge-opacity-success">Completed</div>
-                                          </td>
-                                        </tr>
-                                      </tbody>
-                                    </table>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-        
+         <?php
+include 'inc/connect.php';  // Ensure this file has your DB connection code
+
+// Fetch users from the database
+$query = "SELECT * FROM users";
+$result = mysqli_query($conn, $query);
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+    <title>Manage Users</title>
+</head>
+<body>
+
+<div class="container">
+    <h4 class="my-4">Manage Users</h4>
+    <button class="btn btn-primary mb-3" data-toggle="modal" data-target="#addMemberModal">Add New Member</button>
+
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Full Name</th>
+                <th>Username</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <?php while ($row = mysqli_fetch_assoc($result)): ?>
+                <tr>
+                    <td><?php echo $row['id']; ?></td>
+                    <td><?php echo $row['customer_name']; ?></td>
+                    <td><?php echo $row['company_name']; ?></td>
+                    <td><?php echo $row['status']; ?></td>
+                    <td>
+                        <button class="btn btn-warning btn-sm edit-btn" data-id="<?php echo $row['id']; ?>" data-name="<?php echo $row['customer_name']; ?>" data-username="<?php echo $row['company_name']; ?>" data-status="<?php echo $row['status']; ?>" data-toggle="modal" data-target="#editMemberModal">Edit</button>
+                        <button class="btn btn-danger btn-sm delete-btn" data-id="<?php echo $row['id']; ?>">Delete</button>
+                    </td>
+                </tr>
+            <?php endwhile; ?>
+        </tbody>
+    </table>
+</div>
+
+<!-- Add Member Modal -->
+<div class="modal fade" id="addMemberModal" tabindex="-1" role="dialog" aria-labelledby="addMemberModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addMemberModalLabel">Add New Member</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="addMemberForm">
+                    <div class="form-group">
+                        <label for="customer_name">Full Name</label>
+                        <input type="text" class="form-control" id="customer_name" name="customer_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company_name">Username</label>
+                        <input type="text" class="form-control" id="company_name" name="company_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="status">Status</label>
+                        <select class="form-control" id="status" name="status" required>
+                            <option value="Pending">Pending</option>
+                            <option value="In Progress">In Progress</option>
+                            <option value="Verified">Verified</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Member</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Member Modal -->
+<div class="modal fade" id="editMemberModal" tabindex="-1" role="dialog" aria-labelledby="editMemberModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editMemberModalLabel">Edit Member</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="editMemberForm">
+                    <input type="hidden" id="edit_id" name="id">
+                    <div class="form-group">
+                        <label for="edit_customer_name">Full Name</label>
+                        <input type="text" class="form-control" id="edit_customer_name" name="customer_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit_company_name">Username</label>
+                        <input type="text" class="form-control" id="edit_company_name" name="company_name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit_status">Status</label>
+                        <select class="form-control" id="edit_status" name="status" required>
+                            <option value="Pending">Pending</option>
+                            <option value="In Progress">In Progress</option>
+                            <option value="Verified">Verified</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Update Member</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+    // Add Member
+    $('#addMemberForm').on('submit', function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'POST',
+            url: 'add_user.php',
+            data: $(this).serialize(),
+            success: function(response) {
+                alert('User added successfully.');
+                location.reload();
+            },
+            error: function() {
+                alert('Error adding member.');
+            }
+        });
+    });
+
+    // Edit Member
+    $('.edit-btn').on('click', function() {
+        const id = $(this).data('id');
+        const name = $(this).data('name');
+        const username = $(this).data('username');
+        const status = $(this).data('status');
+
+        $('#edit_id').val(id);
+        $('#edit_customer_name').val(name);
+        $('#edit_company_name').val(username);
+        $('#edit_status').val(status);
+    });
+
+    $('#editMemberForm').on('submit', function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: 'POST',
+            url: 'edit_user.php', // Ensure this file exists and is correct
+            data: $(this).serialize(),
+            success: function(response) {
+                alert('User updated successfully.');
+                location.reload();
+            },
+            error: function() {
+                alert('Error updating member.');
+            }
+        });
+    });
+
+    // Delete Member
+    $('.delete-btn').on('click', function() {
+        const id = $(this).data('id');
+        if (confirm('Are you sure you want to delete this member?')) {
+            $.ajax({
+                type: 'POST',
+                url: 'delete_user.php', // Ensure this file exists and is correct
+                data: { id: id },
+                success: function(response) {
+                    alert('User deleted successfully.');
+                    location.reload();
+                },
+                error: function() {
+                    alert('Error deleting member.');
+                }
+            });
+        }
+    });
+});
+</script>
+
+</body>
+</html>
+    
